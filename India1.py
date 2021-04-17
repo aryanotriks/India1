@@ -142,7 +142,6 @@ def login():
 	except (KeyError,IOError):
 		os.system("clear")
 		print (logo)
-		Mr-Robot('[+] SAYYED ZAKARYA BACHA')
 		print'-------------------------------------'
 		iid=raw_input('[+] Number/Email: ')
 		id=iid.replace(" ","")
